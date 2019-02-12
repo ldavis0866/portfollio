@@ -5,6 +5,8 @@ import pic01 from '../images/pic01.jpg'
 import pic02 from '../images/pic02.jpg'
 import pic03 from '../images/pic03.jpg'
 import project from '../images/project.png'
+import project from '../images/project2.png'
+
 
 class Main extends React.Component {
   render() {
