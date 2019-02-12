@@ -28,9 +28,14 @@ class Main extends React.Component {
           <h2 className="major">Work</h2>
           <span className="image main"><img src={project} alt="" /></span>
           <p>
-            <h1>Hi</h1>
+          Adventure Tracker (12/2018)     
+          Web application that allows a user to map out an outdoors adventure trip and share with others to monitor progress using Facebook OAuth, Google Maps API and Stripe API
+          Lambda School capstone project. Five week project timeline with four team members using Agile Development.
+          Contributed client and server implementation of Stripe payment API, client deployment and maintenance, and application styling and responsiveness using React styled-components.
+          Tech stack | React.js | Apollo client | GraphQL Yoga | Prisma |
             <a href="https://adventure-tracker-frontend.netlify.com"> Front End</a>
           </p>
+          <span className="image main"><img src={project2} alt="" /></span>
           {close}
         </article>
 
