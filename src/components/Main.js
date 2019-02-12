@@ -28,14 +28,25 @@ class Main extends React.Component {
           <h2 className="major">Work</h2>
           <span className="image main"><img src={project} alt="" /></span>
           <p>
-          Adventure Tracker (12/2018)     
-          Web application that allows a user to map out an outdoors adventure trip and share with others to monitor progress using Facebook OAuth, Google Maps API and Stripe API
-          Lambda School capstone project. Five week project timeline with four team members using Agile Development.
-          Contributed client and server implementation of Stripe payment API, client deployment and maintenance, and application styling and responsiveness using React styled-components.
-          Tech stack | React.js | Apollo client | GraphQL Yoga | Prisma |
-            <a href="https://adventure-tracker-frontend.netlify.com"> Front End</a>
+          Adventure Tracker (12/2018)<br />     
+          Web application that allows a user to map out an outdoors adventure trip and share with others to monitor progress using Facebook OAuth, Google Maps API and Stripe API<br />
+          Lambda School capstone project. Five week project timeline with four team members using Agile Development<br />
+          Contributed client and server implementation of Stripe payment API, client deployment and maintenance, and application styling and responsiveness using React styled-components<br />
+          Tech stack | React.js | Apollo client | GraphQL Yoga | Prisma |<br />
+          <a href="https://adventure-tracker-frontend.netlify.com"> Client</a><br />
+          <a href="https://github.com/Lambda-School-Labs/Labs8-AdventureTracker"> GitHub</a>
           </p>
           <span className="image main"><img src={project2} alt="" /></span>
+          <br />
+          <br />
+          <h1>Project 2</h1>
+          <p>
+          Game of Life (10/2018)<br />     
+          A client-side zero-player game, its evolution is determined by its initial state, requiring no further input. One interacts with the Game of Life by creating an initial configuration and observing how it evolves.<br />
+          Tech | React.js |
+          <a href="https://react-game-of-life.netlify.com">Client</a><br />
+          <a href="https://github.com/ldavis0866/Conways-Life">GitHub</a>
+          </p>
           {close}
         </article>
 
