@@ -5,7 +5,7 @@ import pic01 from '../images/pic01.jpg'
 import pic02 from '../images/pic02.jpg'
 import pic03 from '../images/pic03.jpg'
 import project from '../images/project.png'
-import project from '../images/project2.png'
+import project2 from '../images/project2.png'
 
 
 class Main extends React.Component {
@@ -28,6 +28,7 @@ class Main extends React.Component {
           <h2 className="major">Work</h2>
           <span className="image main"><img src={project} alt="" /></span>
           <p>
+            <h1>Hi</h1>
             <a href="https://adventure-tracker-frontend.netlify.com"> Front End</a>
           </p>
           {close}
