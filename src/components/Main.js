@@ -25,7 +25,8 @@ class Main extends React.Component {
         </article>
 
         <article id="work" className={`${this.props.article === 'work' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
-          <h2 className="major">Work</h2>
+          <h2 className="major">Work</h2><br /><br /><br />
+          <h2>Project 1</h2>
           <span className="image main"><img src={project} alt="" /></span>
           <p>
           Adventure Tracker (12/2018)<br />     
@@ -36,14 +37,14 @@ class Main extends React.Component {
           <a href="https://adventure-tracker-frontend.netlify.com"> Client</a><br />
           <a href="https://github.com/Lambda-School-Labs/Labs8-AdventureTracker"> GitHub</a>
           </p>
+          <h2>Project 2</h2>
           <span className="image main"><img src={project2} alt="" /></span>
           <br />
           <br />
-          <h1>Project 2</h1>
           <p>
           Game of Life (10/2018)<br />     
           A client-side zero-player game, its evolution is determined by its initial state, requiring no further input. One interacts with the Game of Life by creating an initial configuration and observing how it evolves.<br />
-          Tech | React.js |
+          Tech | React.js |<br />
           <a href="https://react-game-of-life.netlify.com">Client</a><br />
           <a href="https://github.com/ldavis0866/Conways-Life">GitHub</a>
           </p>
