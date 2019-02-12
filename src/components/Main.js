@@ -25,7 +25,9 @@ class Main extends React.Component {
         <article id="work" className={`${this.props.article === 'work' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Work</h2>
           <span className="image main"><img src={project} alt="" /></span>
-          <p><a href="https://adventure-tracker-frontend.netlify.com"> Front End</a></p>
+          <p>
+            <a href="https://adventure-tracker-frontend.netlify.com"> Front End</a>
+          </p>
           {close}
         </article>
 
