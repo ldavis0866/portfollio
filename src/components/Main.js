@@ -20,7 +20,7 @@ class Main extends React.Component {
         <article id="intro" className={`${this.props.article === 'intro' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Intro</h2>
           <span className="image main"><img src={pic01} alt="" /></span>
-          <p>hi</p>
+          <p></p>
           {close}
         </article>
 
@@ -31,7 +31,7 @@ class Main extends React.Component {
           <p>
           Adventure Tracker (12/2018)<br />     
           Web application that allows a user to map out an outdoors adventure trip and share with others to monitor progress using Facebook OAuth, Google Maps API and Stripe API<br />
-          Lambda School capstone project. Five week project timeline with four team members using Agile Development<br />
+          Five week project timeline with four team members using Agile Development<br />
           Contributed client and server implementation of Stripe payment API, client deployment and maintenance, and application styling and responsiveness using React styled-components<br />
           Tech stack | React.js | Apollo client | GraphQL Yoga | Prisma |<br />
           <a href="https://adventure-tracker-frontend.netlify.com"> Client</a><br />
@@ -54,7 +54,7 @@ class Main extends React.Component {
         <article id="about" className={`${this.props.article === 'about' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">About</h2>
           <span className="image main"><img src={pic03} alt="" /></span>
-          <p>hi</p>
+          <p></p>
           {close}
         </article>
 
