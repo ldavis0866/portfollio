@@ -7,7 +7,7 @@ import pic03 from '../images/pic03.jpg'
 import project from '../images/project.png'
 import project2 from '../images/project2.png'
 import photo from '../images/photo.jpg'
-import intro-pic from '../images/intro-pic02.png'
+import intro-pic from '../images/intro-pic.png'
 
 class Main extends React.Component {
   render() {
