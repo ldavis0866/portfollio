@@ -7,7 +7,7 @@ import pic03 from '../images/pic03.jpg'
 import project from '../images/project.png'
 import project2 from '../images/project2.png'
 import photo from '../images/photo.jpg'
-
+import intro-pic from '../images/intro-pic02.png'
 
 class Main extends React.Component {
   render() {
@@ -19,7 +19,7 @@ class Main extends React.Component {
 
         <article id="intro" className={`${this.props.article === 'intro' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Intro</h2>
-          <span className="image main"><img src={pic01} alt="" /></span>
+          <span className="image main"><img src={intro-pic} alt="" /></span>
           <p></p>
           {close}
         </article>
@@ -51,7 +51,7 @@ class Main extends React.Component {
           {close}
         </article>
 
-        <article id="about" className={`${this.props.article === 'about' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
+        {/* <article id="about" className={`${this.props.article === 'about' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">About</h2>
           <span className="image main"><img src={pic03} alt="" /></span>
           <p></p>
@@ -85,7 +85,7 @@ class Main extends React.Component {
             <li><a href="#" className="icon fa-github"><span className="label">GitHub</span></a></li>
           </ul>
           {close}
-        </article>
+        </article> */}
 
       </div>
     )
