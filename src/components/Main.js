@@ -60,7 +60,7 @@ class Main extends React.Component {
 
         <article id="contact" className={`${this.props.article === 'contact' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Contact</h2>
-          <span>lonnie.r.davis.jr@gmail.com</span>
+          <p>lonnie.r.davis.jr@gmail.com</p>
           {/* <form method="post" action="#">
             <div className="field half first">
               <label htmlFor="name">Name</label>
