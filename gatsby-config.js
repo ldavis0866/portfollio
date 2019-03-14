@@ -3,6 +3,7 @@ module.exports = {
        title: "Lonnie Davis - Portfolio",
   //   author: "Hunter Chang",
   //   description: "A Gatsby.js V2 Starter based on Dimension by HTML5 UP"
+      name="google-site-verification", content="ITHoMzB1JR2dmvQR_OCTyT4DhsQV47GGzTYhQZJ5pwo",
      },
   plugins: [
     'gatsby-plugin-react-helmet',
